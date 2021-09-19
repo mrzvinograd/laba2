@@ -1,4 +1,5 @@
 import socket
+import random
 ban = []
 n = 0
 m = 0
