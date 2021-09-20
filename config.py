@@ -1,7 +1,7 @@
 import socket
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind(('127.0.0.1', 2200))
+server.bind(('172.17.136.58', 2200))
 server.listen(2)
 c_socket, address = server.accept()
 
